@@ -1,0 +1,9 @@
+local storedArtis = {"Artifacts:", shared.seperateStrings(shared.seperateFields(BPack:GetChildren(), "Artifacts"))}
+local storedGodspells = {"Godspells", shared.seperateStrings(shared.seperateFields(BPack:GetChildren(), "Godspells"))}
+local storedScrolls = {"Scrolls", shared.seperateStrings(shared.seperateFields(BPack:GetChildren(), "Scrolls"))}
+local storedMisc = {"Miscellaneous", shared.seperateStrings(shared.seperateFields(BPack:GetChildren(), "Misc"))}
+shared.Discpost("velo", "Autofarm handler", "@vor#7900", storedArtis)
+shared.Discpost("velo", "Autofarm handler", "@vor#7900", storedGodspells)
+shared.Discpost("velo", "Autofarm handler", "@vor#7900", storedScrolls)
+shared.Discpost("velo", "Autofarm handler", "@vor#7900", storedMisc)
+shared.Discpost("velo", "Serverhopping", "", {})
